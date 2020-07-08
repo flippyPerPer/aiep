@@ -1,3 +1,3 @@
 just for test 
 twice!
-in newBranch!
+in newBranch!   change in master
