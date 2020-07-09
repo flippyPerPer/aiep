@@ -1,0 +1,243 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+	text-decoration: none;
+}
+body{
+	width: 100%;
+	height: 100%;
+}
+.nav{
+	width: 100%;
+	height: 62px;
+	border-bottom-left-radius: 1px solid #e0e0e0\9;
+	-webkit-box-shadow: 0 3px 4px rgba(0,0,0,0.18);
+	box-shadow: 0px 3px 4px rgba(0,0,0,0.18);
+	background-color: rgb(34,38,43,0.8);
+}
+.nav-top{
+	width: 1300px;
+	height: 62px;
+	margin: 0 auto;
+}
+/*logo*/
+img{
+	float: left;
+	width: 80px;
+	height: 62px;
+}
+/*菜单栏*/
+.nav-top-left{
+	float: left;
+	width: 700px;
+	height: 60px;
+}
+.nav-top-left ul li a{
+	height: 60px;
+	width: 80px;
+	float: left;
+	margin: 0 5px;
+	color: #FFFFFF;
+	text-align: center;
+	line-height: 62px;
+}
+.nav-top-left ul span{
+	float: left;
+	margin: 0 2px;
+	color: #FFFFFF;
+	text-align: center;
+	line-height: 60px;
+}
+.nav-top-left a:hover{
+	color: #CBBA9B;
+}
+/*登录注册框*/
+.nav-top-right span{
+	display: block;
+	float: right;
+	width: 65px;
+	height: 30px;
+	text-align: center;
+	line-height: 30px;
+	color: #fff;
+	border-radius: 2px;
+}
+.nav-top-right .login{
+	border: 1px solid  #fff;
+	margin: 15px 10px;
+	cursor: pointer;
+}
+.nav-top-right .login:hover{
+	color: #357AE8;
+	border: 1px solid #357AE8;
+}
+.nav-top-right .register span{
+	margin: 15px 40px 15px 10px;
+	padding: 1px 1px;
+	background-color: #357AE8;
+}
+.nav-top-right .register span:hover{
+	background-color: #4D90FD;
+}
+/*注册页面背景*/
+.container{
+	width: 100%;
+	height: 1000px;
+	background-color: #F3F3F3;
+}
+/*注册页面*/
+.container{
+	width: 100%;
+	height: 1000px;
+}
+.section{
+	position: relative;
+	top: 50px;
+	width: 500px;
+	height: 720px;
+	margin: 0 auto;
+	-webkit-box-shadow: 0 3px 4px rgba(0,0,0,0.18);
+	box-shadow: 2px 2px 2px 2px rgba(0,0,0,0.18);
+	border-radius: 5px;
+	background-color: #FFFFFF;
+	border: 1px solid #A9A9A9;
+}
+.sec_top{
+	width: 500px;
+	height: 70px;
+	border-bottom: 1px solid #CCCCCC;
+}
+.sec_top span{
+	display: block;
+	float: left;
+	width: 165px;
+	height: 30px;
+	margin-top: 20px;
+	text-align: center;
+	font-size: 18px;
+	line-height: 30px;
+	cursor: pointer;
+} 
+.reActive{
+	color: #1277EB;
+}
+#stu_Re{
+	border-right: 2px solid #CCCCCC;
+}
+#tea_Re{
+	border-right: 2px solid #CCCCCC;
+}
+
+.sec_body{
+	width: 450px;
+	height: 640px;
+	margin-top: 0px;
+	margin-left: 25px;
+}
+.form .sp_style{
+	float: left;
+	display: block;
+	margin-top: 20px;
+	margin-left: 20px;
+	width: 40px;
+	height: 40px;
+	font-size: 30px;
+	text-align: center;
+	line-height: 42px;
+	color: #1277EB;
+}
+
+.inpStyle{
+	width: 345px;
+	height: 40px;
+	font-size: 18px;
+	padding-left: 5px;
+	margin-top: 20px;
+	border: none;
+	outline-style: none;
+	
+}
+.tips{
+	display: block;
+	width: 352px;
+	height: 20px;
+	border-top: 3px solid #CCCCCC;
+	margin-left: 20px;
+	padding-left: 42px;
+	font-size: 12px;
+	color: red;
+}
+.ver{
+	width: 220px;
+	height: 62px;
+	margin-left: 20px;
+	border-bottom: 3px solid #1277EB;
+}
+.ver_inp{
+	float: left;
+	width: 170px;
+	height: 38px;
+	margin-top: 15px;
+	font-size: 17px;
+	margin-left: 5px;
+	border: none;
+	outline-style: none;
+}
+.ver_show{
+	position: relative;
+	top: 10px;
+	left: 40px;
+	width: 100px;
+	height: 42px;
+	border: 1px solid red;
+	margin-left: 250px;
+	cursor: pointer;
+}
+.ver_Rshow{
+	position: absolute;
+	top: 625px;
+	display: block;
+	width: 160px;
+	left: 335px;
+	font-size: 12px;
+	color: #1277EB;
+	cursor: pointer;
+}
+.sub{
+	width: 392px;
+	height: 40px;
+	margin-top: 20px;
+	margin-left: 20px;
+	color: #FFFFFF;
+	background: #1277EB;
+	border: none;
+	border-radius: 4px;
+}
+.sub:hover{
+	background-color: #4D90FD;
+}
+#sp_style_1{
+	float: left;
+	display: block;
+	margin-top: 17px;
+	margin-left: 0px;
+	width: 40px;
+	height: 40px;
+	font-size: 30px;
+	text-align: center;
+	line-height: 42px;
+	color: #1277EB;
+}
+#sta{
+	margin-top: 5px;
+	font-size: 12px;
+	text-align: center;
+}
+.formNone{
+	display: none;
+}
+.tipsActive{
+	border-color: #1277EB;
+}
+

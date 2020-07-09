@@ -1,0 +1,37 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  
+  <filter>
+    <filter-name>CORS</filter-name>
+    <filter-class>com.tensorflow.util.CORSFilter</filter-class>
+  </filter>
+  <filter-mapping>
+        <filter-name>CORS</filter-name>
+        <url-pattern>/*</url-pattern>
+  </filter-mapping>
+  
+  <listener>
+  	<listener-class>com.tensorflow.util.expOverTimeListener</listener-class>
+  </listener>
+  
+  
+  <servlet>
+  	<servlet-name>DeletePodServlet</servlet-name>
+  	<display-name>DeletePodServlet</display-name>
+  	<description></description>
+  	<servlet-class>com.tensorflow.controller.DeletePodServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>DeletePodServlet</servlet-name>
+  	<url-pattern>/DeletePodServlet</url-pattern>
+  </servlet-mapping>
+  <welcome-file-list>
+  	<welcome-file>HomePage.jsp</welcome-file>
+  	<welcome-file>HomePage.html</welcome-file>
+  </welcome-file-list>
+  
+</web-app>

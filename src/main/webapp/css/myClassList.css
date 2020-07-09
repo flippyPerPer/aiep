@@ -1,0 +1,147 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+	text-decoration: none;
+}
+body{
+	width: 100%;
+	height: 100%;
+}
+.nav{
+	width: 100%;
+	height: 62px;
+	border-bottom-left-radius: 1px solid #e0e0e0\9;
+	-webkit-box-shadow: 0 3px 4px rgba(0,0,0,0.18);
+	box-shadow: 0px 3px 4px rgba(0,0,0,0.18);
+	background-color: #24292e;
+}
+.nav-left{
+	
+	width: 200px;
+	height: 62px;
+	text-align: left;
+	line-height: 62px;
+}
+.per{
+	margin: 0 15px;
+}
+a{
+	color: #FFF;
+}
+a:hover{
+	color: #1277EB;
+}
+.container{
+	position: relative;
+	width: 100%;
+	height: 1000px;
+	background-color: #F3F2E9;
+}
+.container-mid{
+	position: absolute;
+	left: 50%;
+	margin-left: -600px;
+	width: 1200px;
+	height: 1000px;
+}
+#dem{	
+	display: block;
+	width: 60px;
+	height: 45px;
+	margin-top: 20px;
+	margin-left: 25px;
+	font-weight: 900;
+	font-size: 20px;
+	line-height: 45px;
+	text-align: center;
+}
+.con-left{
+	position: absolute;
+	top: 100px;
+	left: 200px;
+	width: 200px;
+	height: 600px;
+	border-radius: 2px;
+	background-color: #FFF;
+	border: 1px solid #A9A9A9;
+}
+.JoinNum{
+	width: 180px;
+	height: 100px;
+	margin: 10px 10px;
+	text-align: center;
+	line-height: 100px;
+	border-radius: 5px;
+	color: #FFF0F5;
+	font-size: 18px;
+	background-color: #4D90FD;
+	border: 1px solid #A9A9A9;
+}
+.con-right{
+	position: absolute;
+	top: 100px;
+	left: 402px;
+	width: 600px;
+	border-radius: 2px;
+	background-color: #FFF;
+	border: 1px solid #E2E5E5;
+}
+.teacherList{
+	width: 600px;
+	height: 60px;
+	border: 1px solid #E2E5E5;
+}
+.teachersName{
+	width: 150px;
+	height: 58px;
+	float: left;
+	margin-left: 130px;
+	text-align: center;
+	line-height: 58px;
+	font-size: 20px;
+}
+.teacherNumber{
+	display: block;
+	float: left;
+	width: 100px;
+	height: 60px;
+	text-align: center;
+	line-height: 60px;
+	margin-left: 5px;
+}
+.studentList{
+	width: 600px;
+	height: 45px;
+	border: 1px solid #E2E5E5;
+}
+.studentList:hover{
+	background-color: #F7F7F7;
+}
+.studentsName{
+	width: 150px;
+	height: 45px;
+	float: left;
+	margin-left: 5px;
+	text-align: center;
+	line-height: 45px;
+}
+.studentNumber{
+	display: block;
+	float: left;
+	width: 160px;
+	height: 45px;
+	text-align: center;
+	line-height: 45px;
+	margin-left: 30px;
+}
+.studentClass{
+	display: block;
+	float: left;
+	width: 160px;
+	height: 45px;
+	text-align: center;
+	line-height: 45px;
+	margin-left: 5px;
+}
+

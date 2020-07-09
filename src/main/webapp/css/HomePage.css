@@ -1,0 +1,320 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+	text-decoration: none;
+}
+body{
+	width: 100%;
+	height: 100%;
+}
+.container-bg{
+	background-image: url(../img/1C3163286F2AEC6BC5C73E3A4C2F69C419960315.jpg);
+	background-size: 100% 100%;
+	background-position: right bottom, left top;
+    background-repeat: no-repeat, no-repeat;
+}
+/*瀵艰埅鏍�*/
+.nav{
+	margin-top: -19px;
+	width: 100%;
+	height: 62px;
+	background-color: rgb(135,165,191,0.2);
+}
+.nav-top{
+	width: 1300px;
+	height: 62px;
+	margin: 0 auto;
+}
+/*logo*/
+img{
+	float: left;
+	width: 80px;
+	height: 62px;
+}
+/*鑿滃崟鏍�*/
+.nav-top-left{
+	float: left;
+	width: 700px;
+	height: 60px;
+}
+.nav-top-left ul li a{
+	height: 60px;
+	width: 80px;
+	float: left;
+	margin: 0 5px;
+	color: #FFFFFF;
+	text-align: center;
+	line-height: 62px;
+}
+.nav-top-left ul span{
+	float: left;
+	margin: 0 2px;
+	color: #FFFFFF;
+	text-align: center;
+	line-height: 60px;
+}
+.nav-top-left a:hover{
+	color: #CBBA9B;
+}
+/*鐧诲綍娉ㄥ唽妗�*/
+.nav-top-right span{
+	display: block;
+	float: right;
+	width: 65px;
+	height: 30px;
+	text-align: center;
+	line-height: 30px;
+	color: #fff;
+	border-radius: 2px;
+}
+.nav-top-right .login{
+	border: 1px solid  #fff;
+	margin: 15px 10px;
+	cursor: pointer;
+}
+.nav-top-right .login:hover{
+	color: #357AE8;
+	border: 1px solid #357AE8;
+}
+.nav-top-right .register span{
+	margin: 15px 40px 15px 10px;
+	padding: 1px 1px;
+	background-color: #357AE8;
+}
+.nav-top-right .register span:hover{
+	background-color: #4D90FD;
+}
+/*banner*/
+.container{
+	position: relative;
+	width: 100%;
+	height: 600px;
+}
+.con-mid{
+	position: relative;
+	width: 1300px;
+	height: 600px;
+	margin: 0 auto;
+}
+/*椤甸潰绠�浠�*/
+.section{
+	position: absolute;
+	left: 100px;
+	top: 150px;
+	width: 500px;
+	height: 240px;
+	padding: 30px 10px;
+	text-align: left;
+	color: #FFFFFF;
+	background-color: rgb(135,165,191,0.1);
+	border-radius: 10px;
+	box-shadow: 4px 4px rgb(135,165,191);
+}
+/*鍏嶈垂娉ㄥ唽妗�*/
+.section .freeReg{
+	display: inline-block;
+	width: 130px;
+	height: 40px;
+	margin-top: 5px;
+	line-height: 40px;
+	color: #fff;
+	text-align: center;
+	background-color: #2F6BA7;
+	border-radius: 5px;
+}
+/*鐧诲綍椤甸潰*/
+.LoginPage{
+	position: absolute;
+	left: 900px;
+	top: 60px;
+	width: 280px;
+	height: 380px;
+	background-color: rgb(135,165,191,0.3);
+	border-radius: 5px;
+	overflow: hidden;
+	transition: height 0.3s;
+	z-index: 10;
+}
+/*鐧诲綍椤甸潰鍙栨秷閿�*/
+.LoginPage #Return{
+	display: inline-block;
+	position: absolute;
+	top: 5px;
+	right: 5px;
+	width: 30px;
+	height: 32px;
+	float: left;
+	font-size: 25px;
+	color: #cccccc;
+	text-align: center;
+	line-height: 32px;
+	border-radius: 50%;
+	cursor: pointer;
+}
+.LoginPage #Return:hover{
+	color: black;
+}
+/*鐧诲綍椤甸潰璐﹀彿鍙婂瘑鐮佹牱寮�*/
+.LoginPage .LoginImg{
+	display: inline-block;
+	width: 30px;
+	height: 32px;
+	text-align: center;
+	line-height: 32px;
+	float: left;
+	color: #FFFFFF;
+	font-size: 25px;
+	margin-left: 10px; 
+}
+/*鐧诲綍椤甸潰璐﹀彿妗�*/
+.LoginPage #userName{
+	outline: none;
+	width: 200px;
+	height: 30px;
+	border: 1px solid #cccccc;
+	margin-left: 5px;
+	padding-left: 5px;
+	border-radius: 5px;
+}
+/*鐧诲綍椤甸潰瀵嗙爜妗�*/
+.LoginPage #password{
+	outline: none;
+	width: 200px;
+	height: 30px;
+	border: 1px solid #cccccc;
+	padding-left: 5px;
+	margin-left: 5px;
+	border-radius: 5px;
+}
+/*鐧诲綍璐﹀彿瑙勮寖鎻愮ず妗�*/
+.LoginPage .userText{
+	height: 16px;
+	width: 200px;
+	margin-left: 50px;
+	margin-top: 5px;
+	font-size: 10px;
+	color: red;
+	line-height: 16px;
+}
+/*鐧诲綍瀵嗙爜瑙勮寖鎻愮ず妗�*/
+.LoginPage .passwordText{
+	height: 16px;
+	width: 200px;
+	margin-left: 50px;
+	margin-top: 5px;
+	font-size: 10px;
+	color: red;
+	line-height: 16px;
+}
+/*楠岃瘉鐮侊紝鏁欏笀涓庡鐢熼�夋嫨鏉挎*/
+.LoginPage #test{
+	width: 200px;
+	height: 80px;
+	margin-left: 65px;
+	margin-top: -5px;
+}
+/*楠岃瘉鐮佹枃鏈*/
+.LoginPage #Test{
+	position: relative;
+	left: -10px;
+	outline: none;
+	width: 100px;
+	height: 28px;
+	border: 1px solid #cccccc;
+	padding-left: 5px;
+	margin-left: 0px;
+	border-radius: 5px;
+}
+/*楠岃瘉鐮佺敓鎴愭牱寮忔*/
+.LoginPage .testNum{
+	position: absolute;
+	right: 20px;
+	display: inline-block;
+	width: 95px;
+	height: 28px;
+	text-align: center;
+	line-height: 28px;
+	font-size: 20px;
+	background-color: #357AE8;
+	 font-family:Arial;
+	 font-style:italic;
+	 color:#FFFFFF;
+	 padding:1px 1px;
+	 letter-spacing:1px;
+	 font-weight:bolder;
+	 float: left;
+	 cursor:pointer;
+	 vertical-align:middle;
+}
+/*鏇存崲楠岃瘉鐮佹帴鍙�*/
+.LoginPage #reNum{
+	position: absolute;
+	display: inline-block;
+	left: 165px;
+	top: 250px;
+	width: 100px;
+	height: 16px;
+	font-size: 12px;
+	margin-top: -5px;
+	color: #FFFFFF;
+	font-family: Arial ;
+	text-decoration: underline;
+	cursor: pointer;
+}
+/*鏁欏笀涓庡鐢熸帴鍙�*/
+.LoginPage .test-rad{
+	margin-top: 50px;
+	margin-left: 10px;
+}
+/*鐧诲綍閿牱寮�*/
+.LoginPage #submit{
+	width: 260px;
+	height: 40px;
+	color: white;
+	border: 0px;
+	margin-top: 30px;
+	margin-left:10px;
+	background-color: #357AE8;
+	border-radius: 5px;
+	cursor: pointer;
+}
+.LoginPage #submit:hover{
+	background-color: #4D90FD;
+}
+.LoginPage a{
+	display: block;
+	margin-left: 210px;
+	margin-top: 5px;
+	font-size: 12px;
+	color: #FFFFFF;
+	text-decoration:underline;
+	
+}
+.LoginPage a:hover{
+	color: #4D90FD;
+}
+/*椤甸潰搴曢儴*/
+.Bottom{
+	width: 100%;
+	height: 330px;
+	background-image: url(../img/127987.jpg);
+	text-align: center;
+}
+/*鑱旂郴鎴戜滑鏍峰紡妗�*/
+.Bottom .Bottom-content .con{
+	display: block;
+	width: 100px;
+	height: 40px;
+	text-align: center;
+	line-height: 40px;
+	background-color: #1277EB;
+	text-decoration: none;
+	color: white;
+	font-size: 10px;
+	margin: 30px auto 0;
+	border-radius: 2px;
+}
+.Bottom .Bottom-content .con:hover{
+	background-color: #0366D6;
+}

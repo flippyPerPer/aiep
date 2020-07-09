@@ -1,0 +1,461 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+	text-decoration: none;
+}
+body{
+	width: 100%;
+	height: 100%;
+}
+.mynav{
+	width: 100%;
+	height: 62px;
+	border-bottom-left-radius: 1px solid #e0e0e0\9;
+	-webkit-box-shadow: 0 3px 4px rgba(0,0,0,0.18);
+	box-shadow: 0px 3px 4px rgba(0,0,0,0.18);
+	background-color: #24292e;
+}
+.nav-top{
+	position: relative;
+	width: 1300px;
+	height: 62px;
+	margin: 0 auto;
+}
+/*logo*/
+img{
+	float: left;
+	width: 80px;
+	height: 62px;
+}
+/*閼挎粌宕熼弽锟�*/
+.nav-top-left{
+	float: left;
+	width: 700px;
+	height: 60px;
+}
+.nav-top-left ul li a{
+	height: 60px;
+	width: 80px;
+	float: left;
+	margin: 0 5px;
+	color: #FFFFFF;
+	text-align: center;
+	line-height: 62px;
+	text-decoration: none                            ;
+}
+.nav-top-left ul span{
+	float: left;
+	margin: 0 2px;
+	color: #FFFFFF;
+	text-align: center;
+	line-height: 60px;
+}
+.nav-top-left a:hover{
+	color: #CBBA9B;
+}
+/*閹兼粎鍌ㄥ锟�*/
+#formlist{
+	float: left;
+}
+#formlist #que{
+	float: left;
+	width: 250px;
+	height: 38px;
+	margin-top: 16px;
+	margin-left: -70px;
+	padding-left: 5px;
+	border: none;
+	outline: none;
+	color: #FFFFFF;
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+}
+#formlist #fir{
+	position: relative;
+	top: 16px;
+	font-size: 20px;
+	float: left;
+	height: 38px;
+	width: 42px;
+	border: 0px;
+	outline: none;
+	display: inline-block;
+	background-color: #1277EB;
+	transition: font-size 0.2s;  
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+	color: #FFFFFF
+}
+#formlist #fir:hover{
+	font-size: 28px;
+	background-color: #0366D6;
+}
+/*閻ц缍嶅▔銊ュ斀濡楋拷*/
+.nav-top-right{
+	display: none;
+	position: absolute;
+	right: 0px;
+	float: right;
+	width: 170px;
+	height: 60px;
+	overflow: hidden;
+	z-index: 6;
+	transition: height 0.3s;
+}
+/*閺堫亞娅ヨぐ鏇犲Ц閹拷*/
+.unLogin{
+	position: absolute;
+	right: 0px;
+	float: right;
+	width: 220px;
+	height: 60px;
+	overflow: hidden;
+	z-index: 6;
+	transition: height 0.3s;
+}
+.unLogin span{
+	display: block;
+	float: right;
+	width: 65px;
+	height: 30px;
+	text-align: center;
+	line-height: 30px;
+	color: #fff;
+	border-radius: 2px;
+}
+.unLogin .login{
+	border: 1px solid  #fff;
+	margin: 15px 10px;
+	cursor: pointer;
+}
+.unLogin .login:hover{
+	color: #357AE8;
+	border: 1px solid #357AE8;
+}
+.unLogin .register span{
+	margin: 15px 40px 15px 10px;
+	padding: 1px 1px;
+	background-color: #357AE8;
+}
+.unLogin .register span:hover{
+	background-color: #4D90FD;
+}
+/*閹存劕濮涢惂璇茬秿閻樿埖锟斤拷*/
+
+.nav-login .useFoot{
+	position: relative;
+	top: 70px;
+	width: 160px;
+	height: 180px;
+	margin-left: 5px;
+	border-radius: 2px;
+	background-color: #fff;
+	border: 1px solid #F7F7F7;
+}
+.nav-login .useFoot:hover{
+	cursor: pointer；
+}
+.nav-login .triangle{
+	position: absolute;
+	top: 52px;
+	left: 116px;
+	width: 0px;
+	height: 10px;
+	border: 10px solid;
+	transform: rotate(180deg);
+	border-color:  #F7F7F7 transparent transparent transparent;
+
+}
+.nav-login ul li{
+	position: relative;
+	display: block;
+	width: 159px;
+	height: 45px;
+	border: 1px solid #fff;
+}
+.nav-login .useList{
+	position: absolute;
+	display: block;
+	width: 45px;
+	height: 45px;
+	text-align: center;
+	line-height: 45px;
+	font-size: 20px;
+	margin-left: 5px;
+}
+.nav-login li:hover{
+	background-color: #E2E5E5;
+}
+.nav-login a{
+	position: absolute;
+	left: 50px;
+	display: block;
+	width: 100px;
+	height: 45px;
+	color: #000000;
+	padding-left: 5px;
+	line-height: 45px;
+}
+.nav-login a:hover{
+	text-decoration: none;
+	color: #333333;
+	cursor: pointer;
+}
+.nav-top-right:hover{
+	cursor: pointer;
+}
+.nav-top-right .nav-unLogin span{
+	display: block;
+	float: right;
+	width: 65px;
+	height: 30px;
+	text-align: center;
+	line-height: 30px;
+	color: #fff;
+	border-radius: 2px;
+}
+.nav-top-right .nav-unLogin .login{
+	border: 1px solid  #fff;
+	margin: 15px 10px;
+	cursor: pointer;
+}
+.nav-top-right .nav-unLogin .login:hover{
+	color: #357AE8;
+	border: 1px solid #357AE8;
+	cursor: pointer;
+}
+.nav-top-right .nav-unLogin .register span{
+	margin: 15px 40px 15px 10px;
+	padding: 1px 1px;
+	background-color: #357AE8;
+}
+.nav-top-right .nav-unLogin .register span:hover{
+	background-color: #4D90FD;
+}
+.dis{
+	display: none;
+}
+.nav-login #useImg{
+	float: right;
+	width: 46px;
+	height: 46px;
+	margin-top: 7px;
+	border-radius: 50%;
+	overflow: hidden;
+	background-color: #1277EB;
+	color: #FFFFFF;
+	line-height: 46px;
+	text-align: center;
+	font-size: 26px;
+}
+.nav-login #useImg:hover{
+	cursor: pointer;
+}
+.nav-login .tip{
+	float: right;
+	width: 20px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	margin-top: 10px;
+	transform: rotate(90deg);
+	transition: transform 0.3s;
+	color: #FFFFFF;
+}
+.nav-login .useName{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 95px;
+	height: 60px;
+	font-size: 16px;
+	line-height: 70px;
+	text-align: right;
+	color: #FFFFFF;
+	overflow: hidden;
+}
+.top-section{
+	width: 100%;
+	height: 300px;
+}
+.carousel-inner img{
+	width: 100%;
+	height: 300px;
+}
+.exp{
+	background-color: #f9f9f9;
+	width: 100%;
+}
+.exp-cont{
+	width: 1200px;
+	height: 650px;
+	margin: 0 auto;
+	overflow: hidden;
+	background-color: #F0F0F0;
+	border: 1px solid #E2E5E5;
+}
+#expTitle{
+	display: block;
+	width: 120px;
+	height: 20px;
+	color: #333;
+	font-size: 20px;
+	text-align: center;
+	line-height: 40px;
+}
+.expList{
+	width: 1200px;
+	height: 596px;
+}
+.expList .liList{
+	position: relative;
+	display: block;
+	float: left;
+	width: 250px;
+	height: 250px;
+	margin: 24px;
+	border-radius: 3px;
+	-webkit-box-shadow:3px 3px 3px 3px #c8c8c8 ;
+	-moz-box-shadow:8px 8px 8px 8px #c8c8c8 ;
+	box-shadow: 3px 3px 3px 3px #c8c8c8 ;
+	overflow: hidden;
+}
+.expList a{
+	text-decoration: none;
+	color: black;
+}
+.expList a:hover{
+	color: black;
+}
+.expImg{
+	width: 250px;
+	height: 160px;
+	z-index: 1;
+}
+.expImg img{
+	
+	width: 250px;
+	height: 160px;
+}
+.expName{
+	position: absolute;
+	top: 150px;
+	width: 250px;
+	height: 100px;
+	background-color: #F7F7F7;
+	transition: top 0.2s;
+	z-index: 2;
+}
+.expName .pn{
+	width: 250px;
+	height: 40px;
+	line-height: 40px;
+	padding-left: 10px;
+	font-size: 16px;
+	font-family:"arial, helvetica, sans-serif"
+	overflow: hidden;
+}
+.expName .pn-content{
+	padding: 0px 5px;
+	font-size: 12px;
+	color: #A9A9A9;
+}
+.expFoot{
+	position: absolute;
+	top: 190px;
+	width: 250px;
+	height: 60px;
+	overflow: hidden;
+	color: #808080;
+	background-color: #F7F7F7;
+	z-index: 3;
+}
+#exp-tips{
+	display: block;
+	float: left;
+	width: 30px;
+	height: 60px;
+	text-align: center;
+	line-height: 60px;
+	margin-left: 10px;
+	font-size: 14px;
+}
+#exp-numPer{
+	display: block;
+	float: left;
+	width: 80px;
+	height: 60px;
+	text-align: left;
+	line-height: 60px;
+	font-size: 14px;
+}
+.exp-page{
+	width: 100%;
+	height: 70px;
+}
+.exp-page-mid{
+	width: 1200px;
+	height: 70px;
+	margin: 0 auto;
+}
+#pages{
+	float: right;
+}
+.pageBottom{
+	position: relative;
+	width: 100%;
+	height: 180px;
+	background-color: #333;
+}
+.pageBottom .pageBottom-mid{
+	position: absolute;
+	left: 50%;
+	height: 180px;
+	margin-left: -600px;
+	width: 1200px;
+}
+.pageBottom .pageBottom-mid img{
+	display: block;
+	position: absolute;
+	top: 30px;
+	left: 100px;
+}
+.pageBottom .pageBottom-mid #logoFoot{
+	display: block;
+	position: absolute;
+	top: 90px;
+	left: 112px;
+	color: #FFFFFF;
+}
+.pageBottom .pageBottom-mid ul>li>a{
+	color: #A9A9A9;
+	text-decoration: none;
+}
+.pageBottom .pageBottom-mid ul>li>a:hover{
+	color: #F7F7F7;
+}
+.pageBottom .pageBottom-mid ul li{
+	position: relative;
+	top: 120px;
+	left: 830px;
+	display: block;
+	width: 100px;
+	height: 30px;
+	float: left;
+	font-size: 14px;
+}
+.pageBottom .pageBottom-mid .Form{
+	position: absolute;
+	top: 140px;
+	left: 105px;
+	width: 315px;
+	height: 34px;
+	font-size: 12px;
+	color: #A9A9A9;
+}
+.pageBottom .pageBottom-mid .Form p{
+	display: block;
+	height: 12px;
+	width: 350px;
+}

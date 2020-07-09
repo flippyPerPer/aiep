@@ -1,0 +1,160 @@
+body{
+	overflow: hidden;
+}
+/**菜单**/
+.frameMenu{
+	width: 300px;
+	background-color: #1c1c1c;
+	float: left;
+}
+.frameMenu .logo{
+	width: 100%;
+	height: 60px;
+	padding: 15px 0;
+	overflow: hidden;
+	border-bottom: 1px solid #2c3441;
+	box-sizing:border-box;
+	-moz-box-sizing:border-box; /* Firefox */
+	-webkit-box-sizing:border-box; /* Safari */
+}
+.logoText{
+	height: 70px;
+	margin-left: 10px;
+	float: left;
+	color: #bdc2c8;
+}
+.logoText p{
+	display: block;
+    width: 100%;
+    height: 25px;
+    font-size: 18px;
+    white-space: nowrap;
+    line-height: 25px;
+    overflow: hidden;
+    text-align: left;
+    text-transform: Uppercase;
+    color: #bdc2c8;
+}
+.data{
+	display: block;
+	width: 100%;
+	height: 100%;
+	overflow:auto;
+	overflow-webkit-scrollbar:2px;
+	color: white
+}
+.data::-webkit-scrollbar{
+	width: 5px;
+}
+.data::-webkit-scrollbar-thumb{
+	border-radius: 5px;
+	-webkit-box-shadow: inset 0 0 5px rgba(192,192,192,2);
+	background: rgha(0,0,0,1);
+}
+.data::-webkit-scrollbar-track{
+	border-radius: 0px;
+	-webkit-box-shadow: inset 0 0 5px rgba(192,192,192,2);
+	background: rgha(0,0,0,1);
+}
+.data ul{
+	margin-top: 15px;
+}
+.data #title{
+	font-size: 20px;
+	line-height: 25px;
+	margin: 2px;
+}
+.data #information{
+	font-size: 15px;
+	line-height: 20px;
+	margin: 1px;
+}
+/**main**/
+.main{
+	width: 250px;
+	float: left;
+}
+
+/**frameTop**/
+.frameTop{
+	width: 100%;
+	height: 60px;
+	background-color: #FFF;
+	position: relative;
+}
+.frameTop .jt{
+	position: absolute;
+    top: 24.5px;
+    left: -6px;
+}
+.frameTop .topMenu{
+	height: 60px;
+	float: right;
+}
+.frameTop .topMenu ul{
+	overflow: hidden;
+}
+.frameTop .topMenu ul li{
+	float: left;
+	border-left: 1px solid #f4f5f6;
+}
+.frameTop .topMenu ul li a{
+	padding: 0 15px;
+	height: 60px;
+	line-height: 60px;
+	display: block;
+	color: #999;
+}
+.frameTop .topMenu ul li a i{
+	margin-right: 5px;
+	font-size: 14px;
+	color: #999;
+}
+.frameTop .topMenu ul li a:hover{
+	color: #666;
+	background-color: #f4f5f6;
+}
+.frameTop .topMenu ul li a:hover i{
+	color: #666;
+}
+
+/**frameMain**/
+.frameMain{
+	width: 100%;
+	height: 60px;
+	border-left: 2px solid #1AA094;
+	box-sizing:border-box;
+	-moz-box-sizing:border-box; /* Firefox */
+	-webkit-box-sizing:border-box; /* Safari */
+}
+.frameMain .title{
+	width: 100%;
+	height: 35px;
+	background-color: #eee;
+}
+.frameMain .title span{
+	display: inline-block;
+	padding: 0 15px;
+	height: 34px;
+	line-height: 34px;
+	margin-top: 3px;
+	background-color: #FFF;
+}
+.frameMain .title span i{
+	margin-right: 10px;
+	font-size: 10px;
+}
+.frameMain .con{
+	width: 99%;
+}
+.frameMain .con iframe{
+	width: 99%;
+	overflow: hidden;
+}
+.title{
+	margin-left: 10px;
+}
+.information{
+	margin-left: 10px;
+	text-indent: 2em;
+}
